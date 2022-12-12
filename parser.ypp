@@ -1,9 +1,9 @@
 %{
-#include "parser.tab.hpp"
+#include "SymbolTable.h"
 #include "output.hpp"
 #include "iostream"
 using namespace output;
-
+int main();
 void yyerror(const char*);
 extern int yylex();
 extern int yylineno;
